@@ -4,7 +4,7 @@ terraform {
             source = "hashicorp/azurerm"
             version = "~> 4.21.1"
         }
-        version = ">=1.11.0"
+        required_version = ">=1.11.0"
     }
 }
 
